@@ -11,8 +11,8 @@ import lombok.AccessLevel;
 public class Scenario {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "scene_id") // DB 컬럼명이 scene_id이므로 반드시 명시!
+    @GeneratedValue(strategy = GenerationType.IDENTITY) //-> id 1씩 증가
+    @Column(name = "scene_id") // 자바의 변수명 - SQL DB에 컬럼명을 연결해줌 ORM
     private Long id;
 
     @Column(name = "role_id") // DB의 role_id와 매핑
