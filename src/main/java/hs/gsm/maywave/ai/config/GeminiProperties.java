@@ -12,4 +12,6 @@ public class GeminiProperties {
     private String apiKey;
     private String baseUrl = "https://generativelanguage.googleapis.com/v1beta";
     private String model = "gemini-3.1-flash-lite-preview";
+    private Integer maxOutputTokens = 96;
+    private Double temperature = 0.4;
 }

@@ -27,6 +27,10 @@ public class GeminiService {
                         Map.of("parts", List.of(
                                 Map.of("text", prompt)
                         ))
+                ),
+                "generationConfig", Map.of(
+                        "maxOutputTokens", properties.getMaxOutputTokens(),
+                        "temperature", properties.getTemperature()
                 )
         );
 
