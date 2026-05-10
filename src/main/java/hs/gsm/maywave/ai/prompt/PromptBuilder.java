@@ -46,6 +46,7 @@ public class PromptBuilder {
         builder.append("""
                 최종 출력:
                 사용자의 선택을 먼저 짚고, 실제 5.18 당시 시민들이 겪은 상황과 자연스럽게 연결해서 말해라.
+                최종 프롬프트가 3줄이내로 출력 되어야한다.
                 """);
 
         return builder.toString();
