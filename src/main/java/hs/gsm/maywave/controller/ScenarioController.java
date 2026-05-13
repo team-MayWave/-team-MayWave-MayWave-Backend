@@ -18,7 +18,7 @@ public class ScenarioController {
         return scenarioGameService.play(
                 request.roleId(),
                 request.scenarioId(),
-                request.choice()
+                request.choice() //실험 123
         );
     }
 }
